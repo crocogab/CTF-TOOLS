@@ -1,0 +1,5 @@
+nmap -sC -sV <IP_CIBLE>
+
+Plus agressif : nmap -A -T4 -p- <IP_CIBLE> 
+
+
