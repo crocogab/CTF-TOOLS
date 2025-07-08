@@ -1,1 +1,1 @@
-ind / -type f -name 'user.txt' 2>/dev/null
+find / -type f -name 'user.txt' 2>/dev/null
