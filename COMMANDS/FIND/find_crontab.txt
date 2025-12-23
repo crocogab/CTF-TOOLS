@@ -1,0 +1,2 @@
+ls -la /etc/cron*
+cat /etc/crontab
