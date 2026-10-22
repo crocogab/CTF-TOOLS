@@ -1,2 +1,13 @@
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 python2 -c 'import pty; pty.spawn("/bin/bash")'
+
+Depuis le PTY : CTRL + z (cela renvoie au terminal attaquant)
+
+stty raw -echo; fg
+
+Attendre d'être revenu dans le shell grâce au fg.
+
+reset
+export TERM=xterm-256color
+export SHELL=/bin/bash
+
